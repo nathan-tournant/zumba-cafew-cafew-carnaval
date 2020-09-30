@@ -101,8 +101,6 @@ function player_falling()
             && (y > tileY) 
             && (y < mtileY))
         {
-            console.log(tileX + " - " + player1.position.x + " - " + mtileX);
-            console.log(tileY + " - " + player1.position.y + " - " + mtileY);
             player1.dead();
         }
     }
