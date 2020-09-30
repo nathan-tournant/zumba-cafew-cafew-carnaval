@@ -52,7 +52,6 @@ function bullet_collision()
             i--;
         }
     }
-
 }
 
 function player_collision()
@@ -85,8 +84,8 @@ function player_falling()
     var nb_tile = 10;
     var sizeOfTileX = WIDTH / nb_tile;
     var sizeOfTileY = HEIGHT / nb_tile;
-    var x = player1.graphic.position.x | 0;
-    var y = player1.graphic.position.y | 0;
+    var x = player1.position.x | 0;
+    var y = player1.position.y | 0;
     var element = null;
 
     for (var i = 0; i < noGround.length; i++) {
@@ -102,7 +101,9 @@ function player_falling()
             && (y > tileY) 
             && (y < mtileY))
         {
-           player1.dead();
+            console.log(tileX + " - " + player1.position.x + " - " + mtileX);
+            console.log(tileY + " - " + player1.position.y + " - " + mtileY);
+            player1.dead();
         }
     }
 
