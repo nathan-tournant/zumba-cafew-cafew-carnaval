@@ -13,6 +13,16 @@ function update()
     if (keyboard.pressed("down"))
         player1.decelerate(moveDistance);
 
+    player2.accelerate(moveDistance);
+    if (player2.position.x >= WIDTH/2){
+        player2.turnRight(rotateAngle);
+    }
+    if (player2.position.x <= - WIDTH/2){
+        player2.turnRight(rotateAngle);
+    }
+
+
     player1.move();
+    player2.move();
     controls.update();
 }
