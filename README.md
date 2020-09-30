@@ -27,6 +27,6 @@ A video game with three.js
 
 **TO DO**
 
-- [ ] : As a player, I want to destroy ennemy when I shot them
+- [ ] : As a player, I want to destroy ennemy when I shoot them
 - [ ] : As a player, I want to decrease my life when I am touch by an ennemy
 - [ ] : As a player, I want to decrease my life when I fall
