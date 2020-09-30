@@ -23,10 +23,16 @@ A video game with three.js
 - [X] : As a player, I want to see ennemy
 - [X] : As a ennemy, I want to move on one axe
 
-**DOING**
-
 **TO DO**
 
 - [ ] : As a player, I want to destroy ennemy when I shoot them
 - [ ] : As a player, I want to decrease my life when I am touch by an ennemy
 - [ ] : As a player, I want to decrease my life when I fall
+
+**NEVER-ASKED BONUS**
+- [X] : Ennemy moves in a superb multi-axial pattern
+- [X] : Fixed typo in readme
+- [X] : Magnificent blue on the spaws tile
+
+**ESTIMATED GRADE**
+75/100 un effort honorable, de clutch moves de l'IA dernier cri qui sauvent la mise
